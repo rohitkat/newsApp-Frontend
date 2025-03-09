@@ -1,0 +1,20 @@
+.social-media-icons{
+    display:flex;
+}
+
+
+
+.social-media-icons > ul {
+    display: flex;
+    list-style: none;
+}
+
+.social-media-icons > ul > li{
+    display: flex;
+    margin: 0 10px;
+}
+
+.social-media-icons > ul > li > a > img{
+    width:20px;
+    height:20px;
+}

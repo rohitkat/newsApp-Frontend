@@ -1,0 +1,33 @@
+.wrapper {
+    margin: 0 auto;
+    max-width: 1220px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weather{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    text-decoration: none;
+}
+
+.cityWeather{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    text-decoration: none;
+}
+
+.yellowText{
+    color: #db9600;
+}
+
+.weatherIcon{
+    width: 40px;
+}

@@ -1,0 +1,15 @@
+.innerTags{
+    display: flex;
+    padding: 5px 5px;
+    justify-content: center;
+}
+
+.innerTags > a {
+    padding: 0px 5px;
+    display: flex;
+    color: #03307e;
+    background: #b4cdf9;
+    text-decoration: none;
+    margin: 0 5px;
+    font-weight: bolder;
+}
