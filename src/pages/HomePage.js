@@ -10,7 +10,7 @@ function HomePage(props) {
   };
   return (
     <>
-      <SubMenus />
+      {/* <SubMenus /> */}
       <NewsBanner />
       <div className="row">
         <div className="col-8">
