@@ -1,27 +1,25 @@
 import React from "react";
 
-function NewsCardAdjacent() {
+function NewsCardAdjacent({Post}) {
   return (
-    <div className="card mb-4" style={{ maxWidth: 540 }}>
+    <div className="card mb-4 mt-1" style={{ maxWidth: 540 }}>
       <div className="row g-0">
         <div className="col-md-4">
           <img
-            src={process.env.PUBLIC_URL + "/images/news-adjacent.webp"}
+            src={Post.Image}
             className="img-fluid rounded-start mt-4"
             alt="..."
           />
         </div>
         <div className="col-md-7">
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
+            <h5 className="card-title">{Post.Category.Title}</h5>
             <p className="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
+              {Post.CaptionText}
             </p>
             <p className="card-text">
               <small className="text-body-secondary">
-                Last updated 3 mins ago
+                {Post.UpdatedOn}
               </small>
             </p>
           </div>

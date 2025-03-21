@@ -94,7 +94,7 @@ function NewsBanner() {
       <div className="col-12">
         {
           <div className="row row-cols-md-3 row-cols-sm-1 g-4 mx-3">
-            {priority3.map((priority) => (
+            {priority3.slice(0,3).map((priority) => (
               <React.Fragment key={priority.id}>
                 <NewsCard Post={priority.Post} />
               </React.Fragment>

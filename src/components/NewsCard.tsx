@@ -35,9 +35,12 @@ const NewsCard: React.FC<NewsType> = ({
             ...(textOnTop ? { marginTop: "40%" } : {}),
           }}
         >
+          {Post && Post.Category &&
           <strong className="primary">
-            <Link to="/">Sports</Link>
-          </strong>
+          <Link to={Post.Category.Url}>{Post.Category.Title}</Link>
+        </strong>
+          }
+          
           <p
             className="card-text"
             style={textOnTop ? { color: "#edf0f3" } : {}}

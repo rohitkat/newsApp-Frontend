@@ -17,5 +17,10 @@ export type NewsType = {
       UpdatedOn: string;
       ActiveTillDate: string;
       IsActive: boolean;
+      Category : {
+        id: number;
+        Title : string;
+        Url : string;
+      }
     };
   };
