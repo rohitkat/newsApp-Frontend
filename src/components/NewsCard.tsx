@@ -45,7 +45,7 @@ const NewsCard: React.FC<NewsType> = ({
             className="card-text"
             style={textOnTop ? { color: "#edf0f3" } : {}}
           >
-            {Post && Post.CaptionText}
+            {Post && Post.Title}
           </p>
         </div>
       </div>

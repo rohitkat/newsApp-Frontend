@@ -8,6 +8,7 @@ export type NewsType = {
     fontStyle?:'large' | 'normal' | 'largeHighlight';
     Post: {
       id: number;
+      Title: string;
       CaptionText: string;
       Description: string;
       Image: string;

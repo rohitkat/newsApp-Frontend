@@ -15,7 +15,7 @@ function NewsCardAdjacent({Post}) {
           <div className="card-body">
             <h5 className="card-title">{Post.Category.Title}</h5>
             <p className="card-text">
-              {Post.CaptionText}
+              {Post.Title}
             </p>
             <p className="card-text">
               <small className="text-body-secondary">
