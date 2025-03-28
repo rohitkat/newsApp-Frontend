@@ -4,7 +4,6 @@ import { useQuery } from "@tanstack/react-query";
 import NewsCard from "../components/NewsCard.tsx";
 import NewsCardAdjacent from "../components/NewsCardAdjacent.tsx";
 import NewsBanner from "../components/NewsBanner.tsx";
-import SubMenus from "../components/SubMenus.tsx";
 
 function HomePage(props) {
   const headingList = {
