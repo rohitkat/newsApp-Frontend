@@ -1,0 +1,56 @@
+.article-history-source:before {
+    content: "";
+    width: 1.3px;
+    height: 100%;
+    position: absolute;
+    left: 5px;
+    background: #032a63;
+}
+
+.article-timeline-source {
+  margin-top: 20px;
+  margin-left: 1.5rem;
+}
+
+.article-timeline-item-source {
+  margin-bottom: 20px;
+}
+
+.article-timeline-item-source:before {
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #080caa;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  display: inline-block;
+  border: solid 3px #fff;
+  padding: 3px;
+  position: absolute;
+  left: 0;
+}
+
+.article-timeline-item-source p:first-child {
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+}
+
+.article-timeline-item-source .article-date-source {
+  margin: 0.5rem 0;
+}
+
+.article-timeline-item-source p {
+  margin: 5px 0;
+  line-height: 1.7;
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+}
+
+.article-written-by {
+  color: #d10014;
+  font-weight: 600;
+}

@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import { NewsType } from "../types/newsType";
 
 const NewsCard: React.FC<NewsType> = ({
-  designType = "updown",
+  designType = "upDown",
   backgroundColor = "#ffffff",
   color = "#000000",
   textOnTop = false,
@@ -24,7 +24,7 @@ const NewsCard: React.FC<NewsType> = ({
           ...{ backgroundColor: backgroundColor },
         }}
       >
-        {Post && <img src={Post.Image} className="card-img-top" alt="..." />}
+        {Post && <Link to={`/post/${Post.id}`}><img src={Post.Image} className="card-img-top" alt="..." /></Link>}
 
         <div
           className={textOnTop ? "card-img-overlay" : "card-body"}
